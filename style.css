@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+}
+.hero{
+    background-image: url(img/hero.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    width: 100%;
+    height: 900px;
+    /* object-fit: cover; */
+}
+.hero-content{
+    display: block;
+    margin: 0px;
+    position: absolute;
+}
+nav{
+    width: 90%;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 50px;
+    margin: 50px 100px 0px 100px;
+    /* background-image: cover; */
+}
+.nav-contents{
+    display: flex;
+    padding: 10px;
+}
+.nav-log{
+    left: 100%;
+    display: flex;
+    padding: 10px 330px 10px 20px;
+}
+.nav-bt{
+    display: flex;
+    padding: 17px 50px 0px 370px;
+    gap: 50px;
+}
+.nav-a1{
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid white;
+}
+.nav-a{
+    text-decoration: none;
+    color: white;
+}
+.hero-btns{
+    display: flex;
+    gap: 20px;
+    padding: 0px 200px 20px 200px;
+    justify-content: center;
+}
+.gets-btn{
+    background-color: orange;
+    /* border-image-source: linear-gradient(90deg, #174993 0%, #892CAE 100%); */
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    margin: 5px;
+}
+.gets-btn2{
+    display: flex;
+    padding: 11px 10px 5px 25px;
+    gap: 10px;
+}
+.learn-btn{
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 150px;
+    height: 40px;
+    margin: 5px;
+}
+.learn-btn2{
+    display: flex;
+    padding: 11px 10px 5px 25px;
+    gap: 10px;
+}
+.hero-text{
+    padding: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+h1{
+    font-size: 80px;
+    padding: 0px 200px 0px 200px;
+}
+.hero-subtext{
+    font-size: 32px;
+    padding: 20px 200px 20px 200px;
+}
+.page2{
+    width: 100%;
+    height: 1000px;
+}
+.page21{
+    padding: 50px 100px 50px 100px;
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+.page2-text{
+    padding: 0px 300px 0px 300px;
+    text-align: center;
+    justify-content: center;
+}
+.line-text{
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+}
+.line{
+    width: 100px;
+    height: 2px;
+    background-color: black;
+    margin-top: 13px;
+}
+.text{
+    font-size: 24px;
+}
+.imgs{
+    display: flex;
+    margin: 50px 100px 50px 100px;
+    gap: 50px;
+}
